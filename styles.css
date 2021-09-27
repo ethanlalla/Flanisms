@@ -4,9 +4,17 @@ h1{
   text-align: center;
 }
 
+h2{
+  text-align: center;
+}
+
 body{
   font-family: "Yaldevi", sans-serif;
   font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -16,21 +24,23 @@ img.flan-1{
   float: left;
   margin-right: 10px;
   margin-bottom: 70px;
+  clear: both;
 }
 
-.desc{
-line-height: 20px;
-margin-bottom: 1em;
-}
-.desc-1{
-  margin-bottom:40px;
+.row{
+  display:flex;
+  width:100%;
+  background-color:#fffeb5;
 }
 
-.column-1{
-  clear: left;
-
+.col-1{
+  width:25%;
 }
 
-.column-2{
-  float:left;
+.col-2{
+  width:25%;
+}
+
+.col-3{
+  width:25%
 }
