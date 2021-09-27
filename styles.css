@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+
+h1{
+  text-align: center;
+}
+
+body{
+  font-family: "Yaldevi", sans-serif;
+  font-weight: bold;
+
+}
+
+img.flan-1{
+  width: 524px;
+  height: 500px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 70px;
+}
+
+.desc{
+line-height: 20px;
+margin-bottom: 1em;
+}
+.desc-1{
+  margin-bottom:40px;
+}
+
+.column-1{
+  clear: left;
+
+}
+
+.column-2{
+  float:left;
+}
