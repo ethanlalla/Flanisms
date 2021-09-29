@@ -2,21 +2,30 @@
 
 h1{
   text-align: center;
-  position: fixed;
-  margin-top: 1px;
 }
 
-h2{
+h3{
+  text-shadow: ;
   text-align: center;
+  margin-top: 5px;
+  position: sticky;
+  top: 0px;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 body{
+  color: black;
   font-family: "Yaldevi", sans-serif;
   font-weight: bold;
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background-image: url(images/flanback.jpg);
+
 
 }
 
@@ -26,6 +35,7 @@ img.flan-1{
   margin-right: 10px;
   margin-bottom: 70px;
   clear: both;
+  border-radius: 10px;
 }
 
 .row {
@@ -33,7 +43,7 @@ img.flan-1{
 }
 
 .row > div{
-  background-color:#fffeb5;
+  background-color:#cbcbcb;
   margin: 1em;
   padding: 2.5em;
 }
@@ -42,18 +52,39 @@ img.flan-1{
   border-style: dashed;
   float: left;
   width:22%;
+  box-shadow: 0 0 10px #777777;
+  border-radius: 10px;
 }
 
 .col-2{
   float: left;
   width:30%;
+  box-shadow: 0 0 10px #777777;
+  overflow: scroll;
+  border-radius: 10px;
 }
 
 .col-3{
   float: left;
-  width:17%
+  width:17%;
+  box-shadow: 0 0 10px #777777;
+  overflow: scroll;
+  border-radius: 10px;
 }
 
 ol, ul {
   padding: 0;
+  height: 150px;
+}
+a {
+    display: block;
+    width: 200px;
+    height: 63px;
+    background-image: url(images/logosprite.png);
+    text-decoration: none;
+    text-indent: -999em;
+}
+
+a:hover {
+    background-image: url(images/logosprite2.jpg);
 }
