@@ -76,15 +76,3 @@ ol, ul {
   padding: 0;
   height: 150px;
 }
-a {
-    display: block;
-    width: 200px;
-    height: 63px;
-    background-image: url(images/logosprite.png);
-    text-decoration: none;
-    text-indent: -999em;
-}
-
-a:hover {
-    background-image: url(images/logosprite2.jpg);
-}
